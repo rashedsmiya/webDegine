@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Landing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/root.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-black">
+
+    <!-- Navbar -->
+    <header class="bg-black py-4 header-section sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center px-4">
+
+            <!-- Logo -->
+            <div class="flex items-center space-x-2">
+                <img src="image/image 94.png" alt="Logo" class="h-10 w-auto">
+            </div>
+
+            <!-- Right-side navigation group -->
+            <div class="flex items-center space-x-4 ml-auto">
+                <!-- Desktop Menu -->
+                <nav class="hidden md:flex space-x-4 text-sm tracking-wider">
+                    <a href="#" class="hover:underline">Home</a>
+                    <a href="#" class="hover:underline">About Us</a>
+                    <a href="#" class="hover:underline">Our Services</a>
+                    <a href="#" class="hover:underline">Membership</a>
+                    <a href="#" class="hover:underline">Insights</a>
+                    <a href="#" class="hover:underline">Contact</a>
+                </nav>
+
+                <!-- Desktop JOIN US button -->
+                <button>
+                    <label for="my-drawer-3"
+                        class="hidden md:inline-block border border-[#caa36b] px-4 py-1 rounded-lg text-sm transition text-[#caa36b]">
+                        JOIN US
+                    </label>
+                </button>
+
+                <!-- Mobile Hamburger Menu Button -->
+                <label for="my-drawer-3" class="bg-black md:hidden btn btn-primary px-4 py-4   text-sm">
+                    <i class="fas fa-bars text-[#d4a75f]"></i>
+                </label>
+            </div>
+        </div>
+
+        <!-- Mobile Drawer -->
+        <div class="drawer drawer-end">
+            <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
+            <div class="drawer-side">
+                <label for="my-drawer-3" class="drawer-overlay"></label>
+                <ul class="menu bg-black text-[#d4a75f] min-h-full w-80 p-6">
+                    <li>
+                        <label for="my-drawer-3" class="btn btn-square btn-ghost btn-circle "
+                            aria-label="close sidebar">✕</label>
+                    </li>
+                    <a href="#" class="hover:underline p-2">Home</a>
+                    <a href="#" class="hover:underline p-2">About Us</a>
+                    <a href="#" class="hover:underline p-2">Our Services</a>
+                    <a href="#" class="hover:underline p-2">Membership</a>
+                    <a href="#" class="hover:underline p-2">Insights</a>
+                    <a href="#" class="hover:underline p-2">Contact</a>
+                    <a href="#"
+                        class="border border-[#caa36b] px-4 py-1 rounded-lg text-sm transition block text-center">
+                        JOIN US
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- CTA -->
+    <section class="text-center lg:mb-24 lg:pt-20 pt-10" id="cta-section">
+        <h2 class="text-2xl sm:text-4xl  tracking-wide">Where Legacy Begins
+        </h2>
+    </section>
+
+    <!-- Content Section -->
+    <section>
+        <div class="#">
+            <!-- 3 Column Info -->
+            <div class="flex justify-center">
+                <div class="p-5">
+                    <img src="image/Column.png" alt="">
+                </div>
+
+                <div class="p-5">
+                    <img class="#" src="image/Column (1).png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="text-center lg:mb-24" id="cta-section2nd ">
+        <p class=" mb-8 text-sm sm:text-base text-white mx-auto max-w-2xl p-4">
+            Velluto Nero is a private circle for those who appreciate
+            elegance, power, and discretion. Founded on timeless principles, we create experiences that are not
+            shown
+            online — they are lived, whispered about, and passed down..
+        </p>
+    </section>
+
+
+    <section class="text-center lg:mb-24 lg:py-12" id="cta-section">
+        <h2 class=" sm:text-2xl mb-4 tracking-wide">Request Invitation
+        </h2>
+    </section>
+
+    <section class="text-center lg:mb-24 py-12" id="cta-section">
+        <h2 class="text-2xl sm:text-4xl mb-4 tracking-wide">"The family has eyes. But never a voice."
+        </h2>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="flex md:flex-row justify-between mx-auto container px-4 py-4">
+        <div class=" mb-4 md:mb-0">
+            <img src="image/image 94.png" alt="">
+        </div>
+        <div class="flex text-white gap-4 text-lg sm:text-xl mb-4 md:mb-0 ">
+            <a href="#" class="hover:text-white text-[#d4a75f]"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="hover:text-white text-[#d4a75f]"><i class="fab fa-youtube"></i></a>
+            <a href="#" class="hover:text-white text-[#d4a75f]"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="hover:text-white text-[#d4a75f]"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="hover:text-white text-[#d4a75f]"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <div class="text-xs gap-4  text-gray-500 text-center p-8">
+        <p class="text-[#E5E3E3]">© 2023 Velluto Nero. All rights reserved.</p>
+    </div>
+
+</body>
+
+</html>

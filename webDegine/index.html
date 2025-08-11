@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Landing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/root.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-black font-serif">
+    <!-- Navbar -->
+    <header class="bg-black py-4 header-section sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center px-4">
+
+            <!-- Logo -->
+            <div class="flex items-center space-x-2">
+                <img src="image/image 94.png" alt="Logo" class="h-10 w-auto">
+            </div>
+
+            <!-- Right-side navigation group -->
+            <div class="flex items-center space-x-4 ml-auto">
+                <!-- Desktop Menu -->
+                <nav class="hidden md:flex space-x-4 text-sm tracking-wider">
+                    <a href="#" class="hover:underline">Home</a>
+                    <a href="#" class="hover:underline">About Us</a>
+                    <a href="#" class="hover:underline">Our Services</a>
+                    <a href="#" class="hover:underline">Membership</a>
+                    <a href="#" class="hover:underline">Insights</a>
+                    <a href="#" class="hover:underline">Contact</a>
+                </nav>
+
+                <!-- Desktop JOIN US button -->
+                <button>
+                    <label for="my-drawer-3"
+                        class="hidden md:inline-block border border-[#caa36b] px-4 py-1 rounded-lg text-sm transition text-[#caa36b]">
+                        JOIN US
+                    </label>
+                </button>
+
+                <!-- Mobile Hamburger Menu Button -->
+                <label for="my-drawer-3" class="bg-black md:hidden btn btn-primary px-4 py-4   text-sm">
+                    <i class="fas fa-bars text-[#d4a75f]"></i>
+                </label>
+            </div>
+        </div>
+
+        <!-- Mobile Drawer -->
+        <div class="drawer drawer-end">
+            <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
+            <div class="drawer-side">
+                <label for="my-drawer-3" class="drawer-overlay"></label>
+                <ul class="menu bg-black text-[#d4a75f] min-h-full w-80 p-6">
+                    <li>
+                        <label for="my-drawer-3" class="btn btn-square btn-ghost btn-circle "
+                            aria-label="close sidebar">✕</label>
+                    </li>
+                    <a href="#" class="hover:underline p-2">Home</a>
+                    <a href="#" class="hover:underline p-2">About Us</a>
+                    <a href="#" class="hover:underline p-2">Our Services</a>
+                    <a href="#" class="hover:underline p-2">Membership</a>
+                    <a href="#" class="hover:underline p-2">Insights</a>
+                    <a href="#" class="hover:underline p-2">Contact</a>
+                    <a href="#"
+                        class="border border-[#caa36b] px-4 py-1 rounded-lg text-sm transition block text-center">
+                        JOIN US
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="relative" id="hero-section">
+        <img src="image/car2.png" alt="Luxury Car" class="w-full h-[40vh] lg:h-[70vh]   object-cover">
+        <div class="absolute inset-0 bg-black/50"></div>
+        <div class="absolute inset-0 flex flex-col justify-center items-center text-center px-4">
+            <h1 class="lg:text-6xl sm:text-4xl text-2xl md:text-4xl font-bold leading-snug ">
+                CERTAIN DOORS DON’T APPEAR <br class="hidden sm:block"> UNTIL YOU’RE READY TO KNOCK.
+            </h1>
+            <button
+                class="mt-6 bg-[#caa36b] text-[#7D0A0A] px-6 py-3 rounded-md hover:bg-[#b58d57] transition text-sm sm:text-base">
+                Enter the Atrium
+            </button>
+        </div>
+    </section>
+
+    <!-- Content Section -->
+    <section class="content-section">
+        <div class="container mx-auto px-4 py-4 lg:py-16 flex flex-col justify-between">
+            <!-- 3 Column Info -->
+            <section class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-8 mb-24">
+                <div class="text-center rounded-xl p-16 bg-black/20 ring-1 ring-[#d4a75f]">
+                    <img class="mx-auto mb-4" src="image/Line 1.png" alt="">
+                    <h3 class="text-xl sm:text-2xl">WHO WE ARE</h3>
+                    <p class="text-sm sm:text-base mt-2 text-white ">A secret
+                        society of elite tastes, where discernment
+                        meets
+                        discretion and excellence is the only currency.</p>
+                </div>
+
+                <div class="text-center rounded-xl p-16 bg-black/20 ring-1 ring-[#d4a75f]">
+                    <img class="mx-auto mb-4" src="image/Line 1.png" alt="">
+                    <h3 class="text-xl sm:text-2xl ">WHAT WE OFFER</h3>
+                    <p class="text-sm sm:text-base mt-2 text-white">Privacy, pleasure, and legacy. An experience curated
+                        for those
+                        who understand that true luxury lies in the unseen.</p>
+                </div>
+                <div class="text-center rounded-xl p-16 bg-black/20 ring-1 ring-[#d4a75f]">
+                    <img class="mx-auto mb-4" src="image/Line 1.png" alt="">
+                    <h3 class="text-xl sm:text-2xl ">THE PROMISE</h3>
+                    <p class="text-sm sm:text-base mt-2 text-white">Access to a world where every detail is considered,
+                        every
+                        moment is crafted, and every experience is extraordinary.</p>
+                </div>
+            </section>
+
+            <!-- CTA -->
+            <section class="text-center lg:mb-24" id="cta-section">
+                <h2 class="text-2xl sm:text-4xl mb-4 tracking-wide">ARE YOU READY TO
+                    STEP
+                    THROUGH?
+                </h2>
+                <p class=" mb-8 text-sm sm:text-base">Membership is by invitation only. Submit your
+                    consideration and await our response.</p>
+                <button
+                    class="btn-gold font-sans rounded-lg px-6 sm:px-10 py-3 sm:py-4 text-sm sm:text-base bg-[#caa36b] hover:bg-[#b58d57] transition">
+                    SUBMIT FOR CONSIDERATION
+                </button>
+            </section>
+
+            <!-- Footer -->
+            <footer class="flex flex-col md:flex-row justify-between items-center mt-auto py-8">
+                <div class="mb-4 md:mb-0">
+                    <img src="image/image 94.png" alt="">
+                </div>
+                <div class="flex  gap-4 text-lg sm:text-xl mb-4 md:mb-0">
+                    <a href="#" class="hover:text-white"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="hover:text-white"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="hover:text-white"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="hover:text-white"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="hover:text-white"><i class="fab fa-youtube"></i></a>
+                </div>
+            </footer>
+
+            <div class="text-xs sm:text-sm text-gray-500 text-center">
+                <p class="text-[#E5E3E3]">© 2023 Velluto Nero. All rights reserved.</p>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
