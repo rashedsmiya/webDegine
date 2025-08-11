@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Landing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/root.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-black font-serif">
+    <!-- Navbar -->
+    <header class="bg-black py-4 header-section sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center px-4">
+
+            <!-- Logo -->
+            <div class="flex items-center space-x-2">
+                <img src="image/image 94.png" alt="Logo" class="h-10 w-auto">
+            </div>
+
+            <!-- Right-side navigation group -->
+            <div class="flex items-center space-x-4 ml-auto">
+                <!-- Desktop Menu -->
+                <nav class="hidden md:flex space-x-4 text-sm tracking-wider">
+                    <a href="#" class="hover:underline">Home</a>
+                    <a href="#" class="hover:underline">About Us</a>
+                    <a href="#" class="hover:underline">Our Services</a>
+                    <a href="#" class="hover:underline">Membership</a>
+                    <a href="#" class="hover:underline">Insights</a>
+                    <a href="#" class="hover:underline">Contact</a>
+                </nav>
+
+                <!-- Desktop JOIN US button -->
+                <button>
+                    <label for="my-drawer-3"
+                        class="hidden md:inline-block border border-[#caa36b] px-4 py-1 rounded-lg text-sm transition text-[#caa36b]">
+                        JOIN US
+                    </label>
+                </button>
+
+                <!-- Mobile Hamburger Menu Button -->
+                <label for="my-drawer-3" class="bg-black md:hidden btn btn-primary px-4 py-4   text-sm">
+                    <i class="fas fa-bars text-[#d4a75f]"></i>
+                </label>
+            </div>
+        </div>
+
+        <!-- Mobile Drawer -->
+        <div class="drawer drawer-end">
+            <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
+            <div class="drawer-side">
+                <label for="my-drawer-3" class="drawer-overlay"></label>
+                <ul class="menu bg-black text-[#d4a75f] min-h-full w-80 p-6">
+                    <li>
+                        <label for="my-drawer-3" class="btn btn-square btn-ghost btn-circle "
+                            aria-label="close sidebar">✕</label>
+                    </li>
+                    <a href="#" class="hover:underline p-2">Home</a>
+                    <a href="#" class="hover:underline p-2">About Us</a>
+                    <a href="#" class="hover:underline p-2">Our Services</a>
+                    <a href="#" class="hover:underline p-2">Membership</a>
+                    <a href="#" class="hover:underline p-2">Insights</a>
+                    <a href="#" class="hover:underline p-2">Contact</a>
+                    <a href="#"
+                        class="border border-[#caa36b] px-4 py-1 rounded-lg text-sm transition block text-center">
+                        JOIN US
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <section class="bg-black text-white font-serif  min-screen lg:w-250 mx-auto ">
+        <div class="text-center py-25  px-6">
+            <!-- Heading -->
+            <h1 class="text-[#caa36b] text-2xl lg:text-4xl font-(family-name:--font-family-base) font-semibold mb-2">
+                BEGIN YOUR DISCRETION
+            </h1>
+            <p class="text-[#E5E3E3] mb-8 text-sm md:text-base font-(family-name:--font-family-secondary)">
+                The first test is knowing what questions to answer.
+            </p>
+
+            <!-- Form -->
+            <form class="font-(family-name:--font-family-secondary)">
+                <!-- Name -->
+                <div class="text-left p-4 ">
+                    <label class="text-xs text[#E5E3E3] mb-2 text-3xl font-serif font-semibold ">Name (we'll forget
+                        it
+                        immediately)</label>
+                    <input type="text" placeholder="Your ephemeral designation."
+                        class="m-2 w-full bg-transparent border border-gray-800 rounded-lg text-sm text-gray-300 px-6 py-3 focus:outline-none focus:border-[#caa36b]" />
+                </div>
+
+                <!-- Who introduced -->
+                <div class="text-left p-4">
+                    <label class="text-xs text[#E5E3E3]   mb-2 text-3xl font-serif font-semibold">Who
+                        introduced you to...
+                        certain tastes? (If
+                        none, lie.)</label>
+                    <input type="text" placeholder="The whisper, rounded-lg the sign, the omen..."
+                        class="m-2 w-full bg-transparent border border-gray-800 text-sm text-gray-300 px-6 py-3 focus:outline-none focus:border-[#caa36b]" />
+                </div>
+
+                <!-- Darkest virtue -->
+                <div class="text-left p-4">
+                    <label class=" text-xs text[#E5E3E3]   mb-2 text-3xl font-serif font-semibold">Your
+                        darkest virtue?
+                        <span class="italic">(e.g.
+                            Patience)</span>
+                    </label>
+                    <input type="text" placeholder="The strength you conceal..."
+                        class="m-2 w-full bg-transparent rounded-lg border border-gray-800 text-sm text-gray-300 px-4 py-3 focus:outline-none focus:border-[#caa36b]" />
+                </div>
+
+                <!-- Button -->
+                <button type="submit"
+                    class="flex bg-[#caa36b]   text-sm tracking-widest px-6 py-3 mt-4 rounded focus:outline-none hover:bg-[#b48c5c] transition-colors duration-300 text-[#7D0A0A]">
+                    BURN AFTER READING
+                </button>
+            </form>
+    </section>
+
+    <section class="bg-black text-white font-serif flex items-center justify-center">
+        <div class="text-center max-w-2xl px-6">
+
+            <!-- Eye Icon -->
+            <div class="flex justify-center mb-6">
+                <img src="image/image 81.png" alt="Eye" class="w-10 h-10">
+            </div>
+
+            <!-- Heading -->
+            <h1
+                class="text-[#caa36b] text-3xl md:text-4xl tracking-wide font-semibold mb-8 font-(family-name:--font-family-secondary) ">
+                IF YOU'RE WORTHY, YOU'LL UNDERSTAND.
+            </h1>
+
+            <!-- Paragraphs -->
+            <p class="text-[#E5E3E3] text-sm md:text-base mb-4 font-(family-name:--font-family-base)">
+                Your submission has been received and will be reviewed by those who matter.
+            </p>
+            <p class="text-[#E5E3E3] text-sm md:text-base mb-4 font-(family-name:--font-family-base)">
+                If your answers demonstrate the required... discretion, you will be contacted through channels you
+                already know.
+            </p>
+            <p class="text-[#E5E3E3] text-xs mb-10 font-(family-name:--font-family-base)">
+                If you do not hear from us, you were never meant to.
+            </p>
+
+            <!-- Button -->
+            <button type="submit"
+                class=" bg-[#caa36b]   text-sm tracking-widest px-6 py-3 mt-4 rounded focus:outline-none hover:bg-[#b48c5c] transition-colors duration-300 text-[#7D0A0A]">
+                BURN AFTER READING
+            </button>
+        </div>
+    </section>
+</body>
+
+
+<!-- Footer -->
+<footer class="flex flex-col md:flex-row justify-between items-center mt-auto py-8 container mx-auto">
+    <div class="mb-4 md:mb-0">
+        <img src="image/image 94.png" alt="">
+    </div>
+    <div class="flex  gap-4 text-lg sm:text-xl mb-4 md:mb-0">
+        <a href="#" class="hover:text-white text-[#caa36b]"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="hover:text-white text-[#caa36b]"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="hover:text-white text-[#caa36b]"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="hover:text-white text-[#caa36b]"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="hover:text-white text-[#caa36b]"><i class="fab fa-youtube"></i></a>
+    </div>
+</footer>
+
+<div class="text-xs sm:text-sm text[#E5E3E3] text-center ">
+    <p class="text-[#E5E3E3] font-(family-name:--font-family-base)">© 2023 Velluto Nero. All rights reserved.</p>
+</div>
+</div>
+</section>
+
+
+</body>
+
+</html>
