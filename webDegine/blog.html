@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Landing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/root.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-black">
+    <!-- Navbar -->
+    <header class="bg-black py-4 header-section sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center px-4">
+
+            <!-- Logo -->
+            <div class="flex items-center space-x-2">
+                <img src="image/image 94.png" alt="Logo" class="h-10 w-auto">
+            </div>
+
+            <!-- Right-side navigation group -->
+            <div class="flex items-center space-x-4 ml-auto">
+                <!-- Desktop Menu -->
+                <nav class="hidden md:flex space-x-4 text-sm tracking-wider">
+                    <a href="#" class="hover:underline">Home</a>
+                    <a href="#" class="hover:underline">About Us</a>
+                    <a href="#" class="hover:underline">Our Services</a>
+                    <a href="#" class="hover:underline">Membership</a>
+                    <a href="#" class="hover:underline">Insights</a>
+                    <a href="#" class="hover:underline">Contact</a>
+                </nav>
+
+                <!-- Desktop JOIN US button -->
+                <button>
+                    <label for="my-drawer-3"
+                        class="hidden md:inline-block border border-[#caa36b] px-4 py-1 rounded-lg text-sm transition text-[#caa36b]">
+                        JOIN US
+                    </label>
+                </button>
+
+                <!-- Mobile Hamburger Menu Button -->
+                <label for="my-drawer-3" class="bg-black md:hidden btn btn-primary px-4 py-4   text-sm">
+                    <i class="fas fa-bars text-[#d4a75f]"></i>
+                </label>
+            </div>
+        </div>
+
+        <!-- Mobile Drawer -->
+        <div class="drawer drawer-end">
+            <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
+            <div class="drawer-side">
+                <label for="my-drawer-3" class="drawer-overlay"></label>
+                <ul class="menu bg-black text-[#d4a75f] min-h-full w-80 p-6">
+                    <li>
+                        <label for="my-drawer-3" class="btn btn-square btn-ghost btn-circle "
+                            aria-label="close sidebar">✕</label>
+                    </li>
+                    <a href="#" class="hover:underline p-2">Home</a>
+                    <a href="#" class="hover:underline p-2">About Us</a>
+                    <a href="#" class="hover:underline p-2">Our Services</a>
+                    <a href="#" class="hover:underline p-2">Membership</a>
+                    <a href="#" class="hover:underline p-2">Insights</a>
+                    <a href="#" class="hover:underline p-2">Contact</a>
+                    <a href="#"
+                        class="border border-[#caa36b] px-4 py-1 rounded-lg text-sm transition block text-center">
+                        JOIN US
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-black text-white font-serif">
+        <!-- Main Container -->
+        <div class="max-w-7xl mx-auto px-6 py-12">
+            <!-- Title -->
+            <h1
+                class="text-center text-4xl font-(family-name:--font-family-base) md:text-5xl text-[#c4a76a] font-semibold tracking-wide m-6">
+                THE UNWRITTEN CHRONICLES
+            </h1>
+            <p class="font-(family-name:--font-family-secondary) text-center text-gray-300 m-12 max-w-2xl mx-auto">
+                Observations, philosophy, hidden histories, and temptations worth remembering— but never reposting
+            </p>
+
+            <!-- Cards Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                <!-- Card 1 -->
+                <div class="bg-[#111] rounded-lg overflow-hidden p-4">
+                    <img src="image/Rectangle 1 (1).png" alt="mask" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <p class="uppercase text-xs tracking-wider text-gray-400 mb-1">Philosophy</p>
+                        <h2 class="text-xl font-semibold text-[#c4a76a] mb-2">The Art of Elegant Disappearance</h2>
+                        <p class="text-gray-300 mb-4">
+                            In a world obsessed with presence, the most powerful move is knowing when to vanish.
+                            The art lies not in the exit, but in the silence that follows.
+                        </p>
+                        <p class="text-sm text-gray-500">3 min read</p>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-[#111] rounded-lg overflow-hidden p-4">
+                    <img src="image/Rectangle 1 (2).png" alt="hallway" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <p class="uppercase text-xs tracking-wider text-gray-400 mb-1">Hidden Histories</p>
+                        <h2 class="text-xl font-semibold text-[#c4a76a] mb-2">Generational Wealth & Secret Traditions
+                        </h2>
+                        <p class="text-gray-300 mb-4">
+                            True wealth isn’t counted in currency but in customs.
+                            The families that endure understand that some traditions are too valuable to share.
+                        </p>
+                        <p class="text-sm text-gray-500">7 min read</p>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-[#111] rounded-lg overflow-hidden p-4">
+                    <img src="image/Rectangle 1.png" alt="modern art" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <p class="uppercase text-xs tracking-wider text-gray-400 mb-1">Observations</p>
+                        <h2 class="text-xl font-semibold text-[#c4a76a] mb-2">Taste: When to Refuse</h2>
+                        <p class="text-gray-300 mb-4">
+                            The highest form of taste is not in what you choose to accept,
+                            but in what you have the wisdom to decline. Refusal is the ultimate luxury.
+                        </p>
+                        <p class="text-sm text-gray-500">5 min read</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="text-center m-20">
+
+        <p id="blog_section">These chronicles are written for those who understand
+            that
+            the most
+            valuable knowledge is never shared freely..</p>
+        <button
+            class=" m-10 btn-gold font-sans rounded-lg px-6 sm:px-10 py-3 sm:py-4 text-[#7D0A0A] text-sm font-weight-bold sm:text-base bg-[#caa36b] hover:bg-[#b58d57] transition">
+            VIEW ARCHIVE
+        </button>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="flex flex-col md:flex-row justify-between items-center mt-auto py-8 container mx-auto">
+        <div class="mb-4 md:mb-0">
+            <img src="image/image 94.png" alt="">
+        </div>
+        <div class="flex  gap-4 text-lg sm:text-xl mb-4 md:mb-0">
+            <a href="#" class="hover:text-white text-[#caa36b]"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="hover:text-white text-[#caa36b]"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="hover:text-white text-[#caa36b]"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="hover:text-white text-[#caa36b]"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="hover:text-white text-[#caa36b]"><i class="fab fa-youtube"></i></a>
+        </div>
+    </footer>
+
+    <div class="text-xs sm:text-sm text-gray-500 text-center p-4">
+        <p class="text-[#E5E3E3]">© 2023 Velluto Nero. All rights reserved.</p>
+    </div>
+    </div>
+
+</body>
+
+</html>
