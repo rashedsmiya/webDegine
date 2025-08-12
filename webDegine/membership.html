@@ -79,88 +79,104 @@
     </header>
 
     <!-- CTA -->
-    <section class="text-center lg:mb-24 text-white lg:mt-40 mt-20" id="cta-section ">
-        <h2 class="text-2xl sm:text-4xl mb-4 tracking-wide text-[#d4a75f]"> Not all appetites are equal. Our tiers
+    <section class="text-center pt-44  text-white  " id="cta-section ">
+        <h2 class="text-2xl sm:text-4xl tracking-wide text-[#d4a75f]"> Not all appetites are equal. Our tiers
             reflect this.
         </h2>
     </section>
 
     <!-- Content Section -->
     <section class="content-section">
-        <div class="container mx-auto px-4 py-4 lg:py-16 flex flex-col justify-between">
+        <div class="container mx-auto flex flex-col justify-between">
             <!-- 3 Column Info -->
-            <section class="lg:px-30">
-                <section class="bg-black py-16">
-                    <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-8">
-                        <!-- Card 1 -->
-                        <div
-                            class="bg-black border border-[#caa36b] rounded-2xl p-8 flex flex-col justify-between py-14">
-                            <h2 class="text-[#caa36b] font-serif text-xl uppercase tracking-wide mb-4 mr-16">Bambino
-                                Viziato</h2>
 
-                            <hr class="border-gray-700 my-4">
-                            <p class="text-[#caa36b] text-3xl font-serif pr-80">$5,000</p>
-                            <button
-                                class="m-6 bg-[#caa36b] text-red-800 py-4 mb-16 pt-4 mt-6 rounded transition hover:bg-[#b18e55] ml-2">
-                                Get Stated
-                            </button>
-                            <hr class="border-gray-700 my-4">
-                            <ul class="text-gray-300 font-light pt-4 pr-41 text-left">
-                                <li class="p-2">• Priority access</li>
-                                <li class="p-2">• Basic companionship clearance</li>
-                                <li class="p-2">• Quarterly temptation dossiers</li>
-                            </ul>
-                        </div>
-
-                        <div
-                            class="bg-black border border-[#caa36b] rounded-2xl p-8 flex flex-col justify-between py-14">
-                            <h2 class="text-[#caa36b] font-serif text-xl uppercase tracking-wide mb-4 mr-14 lg:mr-28">
-                                Cavalieri
-                                Premier
-                            </h2>
-                            <span
-                                class="absolute  bg-[#caa36b] text-[#7D0A0A] uppercase font-serif text-xs mt-8 px-2 py-1 rounded-full">Premier</span>
-                            <hr class="border-gray-700 mt-8 my-4">
-                            <p class="text-[#caa36b] text-3xl font-serif pr-80">$25,000</p>
-                            <button
-                                class="m-6 bg-[#caa36b] text-red-800 py-4 mb-16 pt-4 mt-6 rounded transition hover:bg-[#b18e55] ml-2">
-                                Get Stated
-                            </button>
-                            <hr class="border-gray-700 my-4">
-                            <ul class="text-gray-300 font-light pt-4 pr-41 text-left">
-                                <li class="p-2">• Priority access</li>
-                                <li class="p-2">• Basic companionship clearance</li>
-                                <li class="p-2">• Quarterly temptation dossiers</li>
-                            </ul>
-                        </div>
-
-                        <div
-                            class="bg-black border border-[#caa36b] rounded-2xl p-8 flex flex-col justify-between py-14">
-                            <h2
-                                class="text-[#caa36b] font-serif text-xl uppercase tracking-wide mb-4 lg:pr-26 lg:mr-18">
-                                Cavalieri
-                                Ottimale
-
-                            </h2>
-                            <span
-                                class="absolute  bg-[#caa36b] text-[#7D0A0A] uppercase font-serif text-xs mt-8 px-2 py-1 rounded-full">OTTIMALE</span>
-                            <hr class="border-gray-700 mt-8 my-4">
-                            <p class="text-[#caa36b] text-3xl font-serif pr-80">$100,000</p>
-                            <button
-                                class="m-6 bg-[#caa36b] text-red-800 py-4 mb-16 pt-4 mt-6 rounded transition hover:bg-[#b18e55] ml-2">
-                                Get Stated
-                            </button>
-                            <hr class="border-gray-700 my-4">
-                            <ul class="text-gray-300 font-light pt-4 pr-41 text-left">
-                                <li class="p-2">• Priority access</li>
-                                <li class="p-2">• Basic companionship clearance</li>
-                                <li class="p-2">• Quarterly temptation dossiers</li>
-                            </ul>
-                        </div>
-
-
+            <section class="bg-black text-white min-h-screen flex items-center justify-center  sm:p-8">
+                <!-- This container is the main grid for the cards. -->
+                <!-- It uses a single column on small screens and automatically adjusts to two or three columns on larger screens. -->
+                <!-- The `gap-8` provides consistent spacing between the cards on all screen sizes. -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full max-w-7xl mx-auto">
+                    <!-- Card 1 -->
+                    <div
+                        class="relative bg-[#0a0a0a] border border-[#caa36b] rounded-2xl p-8 flex flex-col justify-between shadow-lg transition-transform duration-300 ">
+                        <h2 class="text-[#caa36b] font-serif text-3xl uppercase tracking-wide mb-4">Bambino Viziato</h2>
+                        <hr class="border-gray-700 my-4">
+                        <ul class="text-gray-300 font-light pt-8 space-y-4 text-left">
+                            <li class="pl-4 relative">
+                                <span class="absolute left-0 top-0 text-[#caa36b] text-xl">•</span>
+                                Priority access
+                            </li>
+                            <li class="pl-4 relative">
+                                <span class="absolute left-0 top-0 text-[#caa36b] text-xl">•</span>
+                                Basic companionship clearance
+                            </li>
+                            <li class="pl-4 relative">
+                                <span class="absolute left-0 top-0 text-[#caa36b] text-xl">•</span>
+                                Quarterly temptation dossiers
+                            </li>
+                        </ul>
+                        <button
+                            class="mt-8 w-full bg-[#caa36b] text-[#7D0A0A] py-3 rounded-xl transition hover:bg-[#b18e55] font-semibold text-lg uppercase tracking-wider shadow-md mb-[100px]">
+                            Get Stated
+                        </button>
                     </div>
-                </section>
+
+                    <!-- Card 2 -->
+                    <div
+                        class="relative bg-[#0a0a0a] border border-[#caa36b] rounded-2xl p-8 flex flex-col justify-between shadow-lg transition-transform duration-300  ">
+                        <h2 class="text-[#caa36b] font-serif text-3xl uppercase tracking-wide mb-4">Cavalieri Premier
+                        </h2>
+                        <span
+                            class="lg:mr-60 top-4 p-2 right-2 bg-[#caa36b] text-[#7D0A0A] uppercase font-serif text-xs   rounded-full font-bold">Premier</span>
+                        <hr class="border-gray-700 my-4">
+                        <ul class="text-gray-300 font-light pt-8 space-y-4 text-left">
+                            <li class="pl-4 relative">
+                                <span class="absolute left-0 top-0 text-[#caa36b] text-xl">•</span>
+                                24/7 Shadow Concierge
+                            </li>
+                            <li class="pl-4 relative">
+                                <span class="absolute left-0 top-0 text-[#caa36b] text-xl">•</span>
+                                Use of Medici Villas
+                            </li>
+                            <li class="pl-4 relative">
+                                <span class="absolute left-0 top-0 text-[#caa36b] text-xl">•</span>
+                                Black Book Access
+                            </li>
+                        </ul>
+                        <button
+                            class="mt-8 w-full bg-[#caa36b] text-[#7D0A0A] py-3 rounded-xl transition hover:bg-[#b18e55] font-semibold text-lg uppercase tracking-wider shadow-md mb-[100px]">
+                            Get Stated
+                        </button>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div
+                        class="relative bg-[#0a0a0a] border border-[#caa36b] rounded-2xl p-8 flex flex-col justify-between shadow-lg transition-transform duration-300 ">
+
+                        <h2 class="text-[#caa36b] font-serif text-3xl uppercase tracking-wide mb-4">Cavalieri Ottimale
+                        </h2>
+                        <span
+                            class="lg:mr-60 top-4 p-2 right-2 bg-[#caa36b] text-[#7D0A0A] uppercase font-serif text-xs   rounded-full font-bold">Premier</span>
+                        <hr class="border-gray-700 my-4">
+                        <ul class="text-gray-300 font-light pt-8 space-y-4 text-left">
+                            <li class="pl-4 relative">
+                                <span class="absolute left-0 top-0 text-[#caa36b] text-xl">•</span>
+                                Custom fantasy architecture
+                            </li>
+                            <li class="pl-4 relative">
+                                <span class="absolute left-0 top-0 text-[#caa36b] text-xl">•</span>
+                                Nero Protocol (digital physical erasure)
+                            </li>
+                            <li class="pl-4 relative">
+                                <span class="absolute left-0 top-0 text-[#caa36b] text-xl">•</span>
+                                Bloodline Perpetuity
+                            </li>
+                        </ul>
+                        <button
+                            class="mt-8  w-full bg-[#caa36b] text-[#7D0A0A] py-3 rounded-xl transition hover:bg-[#b18e55] font-semibold text-lg uppercase tracking-wider shadow-md mb-[100px]">
+                            Get Stated
+                        </button>
+                    </div>
+                </div>
             </section>
 
             <section class="text-center lg:mb-24" id="cta-section">
@@ -194,7 +210,7 @@
                 </div>
             </footer>
 
-            <div class="text-xs sm:text-sm text-gray-500 text-center">
+            <div class="text-xs sm:text-sm text-gray-500 text-center  p-20">
                 <p class="text-[#E5E3E3]">© 2023 Velluto Nero. All rights reserved.</p>
             </div>
         </div>
